@@ -680,7 +680,7 @@ let app = new Vue({
       else if (this.day < this.dates.length) {
         if (!this.paused) {
           this.day++;
-          setTimeout(this.increment, 200);
+          setTimeout(this.increment, 80);
         }
       }
 
@@ -785,7 +785,7 @@ let app = new Vue({
 
     sliderSelected: false,
 	
-	timeWindow: 7,
+	timeWindow: 14,
 
     day: 1,
 
@@ -805,7 +805,7 @@ let app = new Vue({
 
     isHidden: true,
 
-    selectedCountries: ['Australia', 'Canada', 'China', 'France', 'Germany', 'Iran', 'Italy', 'Japan', 'South Korea', 'Spain', 'Switzerland', 'US', 'United Kingdom', 'India', 'Pakistan'],
+    selectedCountries: ['Australia', 'Canada', 'China', 'France', 'Germany', 'Hungary', 'Iran', 'Italy', 'Japan', 'South Korea', 'Spain', 'Switzerland', 'US', 'United Kingdom', 'India', 'Pakistan'],
 
     graphMounted: false,
 
